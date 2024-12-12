@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "jwt",
+      "type": "com.assign1.demo.config.RSAKeyRecord",
+      "sourceType": "com.assign1.demo.config.RSAKeyRecord"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jwt.rsa-private-key",
+      "type": "java.security.interfaces.RSAPrivateKey",
+      "sourceType": "com.assign1.demo.config.RSAKeyRecord"
+    },
+    {
+      "name": "jwt.rsa-public-key",
+      "type": "java.security.interfaces.RSAPublicKey",
+      "sourceType": "com.assign1.demo.config.RSAKeyRecord"
+    }
+  ],
+  "hints": []
+}
